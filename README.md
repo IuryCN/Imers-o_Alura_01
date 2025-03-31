@@ -15,3 +15,6 @@ git clone https://github.com/IuryCN/conversor_moedas.git
 
 ## Tecnologias usadas:
 HTML - CSS - JavaScript
+
+## Licença
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais detalhes.
