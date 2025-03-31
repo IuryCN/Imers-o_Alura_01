@@ -1,0 +1,104 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  max-width: 150px;
+  width: auto;
+}
+
+.container {
+  background: url("https://cdn.pixabay.com/photo/2023/12/30/09/23/ai-generated-8477673_1280.jpg")
+    no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1.1em;
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  background-color: #ff1b7b;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e6006f;
+}
+
+#resultados {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  .content {
+    width: 90%;
+    padding: 15px;
+  }
+
+  button {
+    font-size: 1em;
+    padding: 8px 15px;
+  }
+
+  .logo {
+    max-width: 100px;
+    top: 10px;
+    right: 10px;
+  }
+}
